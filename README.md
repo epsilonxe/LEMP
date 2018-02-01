@@ -14,4 +14,8 @@ Run docker compose by executing the following command
 ```sh
 $ docker-compose up -d
 ```
-Your new project can be accessed by either ```localhost``` or 127.0.0.1
+Your new project can be accessed by either ```localhost``` or ```127.0.0.1```
+To stop and remove the containers, just simply use the command
+```sh
+$ docker-compose down
+```

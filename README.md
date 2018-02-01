@@ -1,11 +1,11 @@
 # LEMP
-Docker Compose on LEMP
+_Docker Compose on LEMP_
 
-This branch include bootstrap framework.
+This branch includes bootstrap framework.
 
 ## Prerequisite
-- [Node.js and npm](https://nodejs.org/en/) installed
-- BrowserSync, Gulp, Gulp-Sass installed
+- [Node.js and npm](https://nodejs.org/en/) installed.
+- BrowserSync, Gulp, Gulp-Sass installed.
 ```sh
 $ npm install browser-sync gulp gulp-sass -g  
 ```
@@ -30,7 +30,7 @@ Next, install Bootstrap and its dependencies
 ```sh
 your-new-project$ npm install jquery popper.js bootstrap
 ```
-This will install the above node modules at ```your-new-project/node_modules```
+This will install the above node modules at ```your-new-project/node_modules```.
 
 In the following step, we have to link BrowserSync, Gulp and Gulp-Sass to node modules
 ```sh
